@@ -1,0 +1,99 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background: $almost-black;
+  font-family: $font-base;
+}
+
+header, section, main {
+  display: flex;
+  padding: 38px 26px;
+  flex-wrap: wrap;
+}
+
+header {
+  justify-content: space-between;
+  background-color: rgb(80, 80, 80);
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: baseline;
+}
+
+main {
+  justify-content: space-around;
+}
+
+a {
+  color: $white;
+}
+
+a:focus, a:hover {
+  color: $white;
+  text-decoration: underline;
+}
+
+button, a.button {
+  height: 47px;
+  padding: 12px 18px;
+  color: $white;
+  border: none;
+  background-color: #2056A0;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+hr {
+  width: 100%;
+  border-color: #707070;
+}
+
+label {
+  box-sizing: border-box;
+  min-width: 220px;
+  height: 38px;
+  border: none;
+  padding-right: 15px;
+  padding-top: 6px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+input {
+  box-sizing: border-box;
+  width: calc(100% - 220px);
+  height: 38px;
+  padding: 15px 10px;
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+dl {
+  display: flex;
+  box-sizing: border-box;
+  width: calc(100% + 52px);
+  margin: 0 -26px;
+  padding: 30px 15px;
+  background: $white;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+dt {
+  width: calc(50% - 15px);
+  text-align: right;
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+dd {
+  width: 50%;
+  margin-left: auto;
+}

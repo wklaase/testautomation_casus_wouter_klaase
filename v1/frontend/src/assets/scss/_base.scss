@@ -1,0 +1,19 @@
+// Base ////////////////////////////
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  -ms-overflow-style: scrollbar;
+
+  font-family: $font-base;
+  font-size: $font-size-s;
+
+  text-decoration-skip: ink;
+}
+
