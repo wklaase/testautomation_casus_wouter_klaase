@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="proxyApiBaseUrl" value="http://localhost:8080"/>
+    <Parameter name="userApiBaseUrl" value="http://localhost:4242"/>
+    <Parameter name="postgresConnectionString" value="Host=localhost;Username=postgres;Password=test;Database=testautomation"/>
+  </TestRunParameters>
+</RunSettings>
